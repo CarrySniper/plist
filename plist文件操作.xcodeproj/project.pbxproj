@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C54239E41A836A3300DFDC7E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54239E31A836A3300DFDC7E /* DemoViewController.m */; };
+		C54239E61A8373CB00DFDC7E /* usersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C54239E51A8373CB00DFDC7E /* usersList.plist */; };
 		C54A6E1F1A83549100E20290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54A6E1E1A83549100E20290 /* Foundation.framework */; };
 		C54A6E211A83549100E20290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54A6E201A83549100E20290 /* CoreGraphics.framework */; };
 		C54A6E231A83549100E20290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54A6E221A83549100E20290 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C54239E21A836A3300DFDC7E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		C54239E31A836A3300DFDC7E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		C54239E51A8373CB00DFDC7E /* usersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = usersList.plist; sourceTree = "<group>"; };
 		C54A6E1B1A83549100E20290 /* plist文件操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plist文件操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54A6E1E1A83549100E20290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C54A6E201A83549100E20290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +82,7 @@
 		C54A6E121A83549100E20290 = {
 			isa = PBXGroup;
 			children = (
+				C54239E51A8373CB00DFDC7E /* usersList.plist */,
 				C54A6E241A83549100E20290 /* plist文件操作 */,
 				C54A6E3D1A83549100E20290 /* plist文件操作Tests */,
 				C54A6E1D1A83549100E20290 /* Frameworks */,
@@ -111,6 +117,8 @@
 				C54A6E2E1A83549100E20290 /* AppDelegate.m */,
 				C54A6E301A83549100E20290 /* Images.xcassets */,
 				C54A6E251A83549100E20290 /* Supporting Files */,
+				C54239E21A836A3300DFDC7E /* DemoViewController.h */,
+				C54239E31A836A3300DFDC7E /* DemoViewController.m */,
 			);
 			path = "plist文件操作";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				C54A6E291A83549100E20290 /* InfoPlist.strings in Resources */,
 				C54A6E311A83549100E20290 /* Images.xcassets in Resources */,
+				C54239E61A8373CB00DFDC7E /* usersList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54239E41A836A3300DFDC7E /* DemoViewController.m in Sources */,
 				C54A6E2F1A83549100E20290 /* AppDelegate.m in Sources */,
 				C54A6E2B1A83549100E20290 /* main.m in Sources */,
 			);
@@ -437,6 +447,7 @@
 				C54A6E491A83549100E20290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C54A6E4A1A83549100E20290 /* Build configuration list for PBXNativeTarget "plist文件操作Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				C54A6E4C1A83549100E20290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
