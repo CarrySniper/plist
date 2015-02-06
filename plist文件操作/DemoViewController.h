@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DemoViewController : UIViewController
+@interface DemoViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    NSMutableArray *_array;
+}
+
+@property(nonatomic,strong)UITableView *tableView;
 
 @end

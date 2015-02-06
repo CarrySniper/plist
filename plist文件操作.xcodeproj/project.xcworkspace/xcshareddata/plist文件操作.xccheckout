@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CF66F33-6B0D-4AAE-9611-2CB343835913</string>
+	<key>IDESourceControlProjectName</key>
+	<string>plist文件操作</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>980F299DB578E809EA2AD63FE90EF3CA2C005302</key>
+		<string>https://github.com/cjq002/plist.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>plist文件操作.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>980F299DB578E809EA2AD63FE90EF3CA2C005302</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cjq002/plist.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>980F299DB578E809EA2AD63FE90EF3CA2C005302</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>980F299DB578E809EA2AD63FE90EF3CA2C005302</string>
+			<key>IDESourceControlWCCName</key>
+			<string>plist%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
